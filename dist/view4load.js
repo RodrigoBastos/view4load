@@ -17,10 +17,11 @@ app.directive('load', function ($http)
     template: function (element, attrs){
 
       var color = colors[attrs.templateColor];
+      var label = attrs.templateLabel;
 
       return '<div ng-if="isShow" style="left: 0;top: 0;margin: 0;font-family: arial, sans-serif;font-weight: bold;visibility: hidden;z-index: 1050;position: absolute;text-align: center;width: 100%;height: 100%;">' +
         '<div style="position: relative;display: inline-block;visibility: visible;font-size: 80%;padding: 6px 10px;' + color + 'box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">' +
-        'Carregando...</div></div>';
+        ''+label+'</div></div>';
     },
     link: function (scope, element, attrs)
     {

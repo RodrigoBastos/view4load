@@ -8,9 +8,9 @@ app.directive('load', function ($http)
     restrict: 'A',
     template: function (element, attrs){
 
-      var color = colors[attrs.templateColor];
-      var position = positions[attrs.templatePosition];
-      var label = attrs.templateLabel;
+      var color =  attrs.template ? colors[attrs.template] : colors[defaultValues.color];
+      var position = attrs.templatePosition? positions[attrs.templatePosition] : positions[defaultValues.position];
+      var label = attrs.templateLabel ? attrs.templateLabel : defaultValues.label;
 
 
       return '<div ng-if="isShow" style="left: 0;top: 0;margin: 0;font-family: arial, sans-serif;font-weight: bold;visibility: hidden;z-index: 1050;position: absolute;'+position+';width: 100%;height: 100%;">' +

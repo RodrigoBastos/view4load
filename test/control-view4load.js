@@ -11,7 +11,6 @@ app.controller('ViewCtrl', function ($scope, $http) {
     $http.get('http://jsonplaceholder.typicode.com/posts').success(
       function (data) {
         $scope.posts = data;
-        console.log('OK');
       }
     )
   }

@@ -1,0 +1,28 @@
+{
+  "name": "view4load",
+  "version": "0.0.1",
+  "homepage": "https://github.com/RodrigoBastos/view4load",
+  "authors": [
+    "Rodrigo Bastos <rodrigorozendobastos@gmail.com>"
+  ],
+  "description": "AngularJS directive for the add a message by loading the page at http requests",
+  "main": "dist/view4load.js",
+  "keywords": [
+    "load",
+    "directive",
+    "view4load",
+    "angularjs"
+  ],
+  "license": "None",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source",
+    "gulpfile.js",
+    "package.json",
+    ".gitignore"
+  ]
+}

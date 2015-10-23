@@ -7,4 +7,7 @@
 *.iml
 out
 gen
+<<<<<<< HEAD
 node_modules
+=======
+>>>>>>> bf119f09556c08788ce59b0e5e538558fb47e1f6

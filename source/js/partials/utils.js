@@ -19,11 +19,16 @@ var positions = {
   right: 'text-align: right',
   center: 'text-align: center',
   left: 'text-align: left',
-  bottom: 'bottom: 0'
+  middle: 'top: 50%; left: 50%'
+};
+
+var sizes = {
+	lg: 'padding: 20px 50px; font-size:25px;'
 };
 
 var defaultValues = {
   color: 'default',
   position: 'center',
-  label: 'LOADING..'
+  label: 'LOADING..',
+  size: 'lg'
 };

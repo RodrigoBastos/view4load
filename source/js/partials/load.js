@@ -22,7 +22,7 @@ app.directive('load', function ($http)
       var font = attrs.templateFont ? fonts[attrs.templateFont] : activeTemplate.extern.font;
       var extern = activeTemplate.extern.general;
 
-      return '<div ng-if="isShow" style="'+ extern +';'+ position + '"><div style="'+ font +';'+ intern + ';'+color+';'+size+'">'+label+'</div></div>';
+      return '<div ng-if="isShow" style="'+ extern +';'+ position + ';'+ font +'"><div style="'+ intern + ';'+color+';'+size+'">'+label+'</div></div>';
 
       //var color =  attrs.template ? colors[attrs.template] : colors[defaultValues.color];
       //var position = attrs.templatePosition? positions[attrs.templatePosition] : positions[defaultValues.position];

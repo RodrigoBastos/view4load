@@ -9,14 +9,6 @@
  * second: White Color
  */
 
-
-
-//'<div ng-if="isShow" style="left: 0;top: 0;margin: 0;font-family: arial, sans-serif;font-weight: bold;visibility: hidden;z-index: 1050;position: absolute;'+position+';width: 100%;height: 100%;">' +
-////  '<div style="position: relative;display: inline-block;visibility: visible;font-size: 80%;' + size + color + 'box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">' +
-////  ''+label+'</div></div>'
-
-
-
 var internDefault = {
   general:'position: relative;display: inline-block;visibility: visible;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)',
   color: 'background-color: #f9edbe;border: 1px solid #f0c36d',
